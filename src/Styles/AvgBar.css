@@ -1,0 +1,62 @@
+.BarChart {
+  background-color: #dddddd;
+  border-radius: 6px;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  height: inherit;
+  width: auto;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 600%;
+
+
+}
+
+.wrapperBar {
+  margin: 20px auto;
+  width: 100%;
+
+  padding-right: 20px;
+}
+
+.BarData {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.PercentText {
+  color: #ffffff00;
+  font: 8px;
+  text-align: center;
+  padding: 4px;
+
+}
+
+.PercentText:hover {
+  color: black;
+  border: 1px solid white;
+  background-color: white;
+  cursor: pointer
+}
+
+@media all and (min-width: 1500px) {
+  .BarChart {
+    width: 600%;
+ }
+
+}
+
+@media (max-width: 1024px) {
+  .BarChart {
+    width: 300%;
+ }
+}
+
+@media (max-width: 500px) {
+  .BarChart {
+    width: 120%
+  }
+}

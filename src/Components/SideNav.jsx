@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { Sidebar, Menu, MenuItem, menuClasses } from "react-pro-sidebar";
+import BottomSection from "../Sections/BottomSection";
 
 const SideNav = () => {
   const [toggled, setToggled] = useState(false);
 
   return (
-    <div style={{ display: "flex", height: "100vh", minHeight: "400px" }}>
+    <div style={{ display: "flex", height: "100vh",  }}>
       <Sidebar
         breakPoint="sm"
         onBackdropClick={() => setToggled(false)}
@@ -29,21 +30,17 @@ const SideNav = () => {
             Welcome,
           </MenuItem>
           <MenuItem>Andy Repp</MenuItem>
-
           <MenuItem disabled className="metrics">
             Metrics
           </MenuItem>
           <MenuItem className="overview" active>
-            {" "}
             Overview
           </MenuItem>
           <MenuItem> Detailing</MenuItem>
           <MenuItem>Calls</MenuItem>
-
           <MenuItem disabled className="information">
             Information
           </MenuItem>
-
           <MenuItem>About profiles</MenuItem>
           <MenuItem>Detailing targets</MenuItem>
         </Menu>
@@ -57,6 +54,7 @@ const SideNav = () => {
       </main>
       <main style={{ padding: 10 }}>
         <div>main content</div>
+        <BottomSection />
       </main>
     </div>
   );

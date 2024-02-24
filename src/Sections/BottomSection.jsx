@@ -1,9 +1,10 @@
 import React from 'react';
+import AvgBar from '../Components/AvgBar';
 
 const BottomSection = () => {
     return (
         <div>
-            chart
+            <AvgBar />
         </div>
     );
 }
