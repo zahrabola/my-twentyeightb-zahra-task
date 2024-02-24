@@ -7,7 +7,7 @@ const SideNav = () => {
   const [toggled, setToggled] = useState(false);
 
   return (
-    <div style={{ display: "flex", height: "100vh",  }}>
+    <div className="sidebar-wrapper" style={{ display: "flex"  }}> {/*height: "100vh",*/}
       <Sidebar
         breakPoint="sm"
         onBackdropClick={() => setToggled(false)}

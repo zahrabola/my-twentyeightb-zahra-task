@@ -68,14 +68,14 @@ padding: 10px;
 
 @media screen and (max-width: 1024px) {   /* ipad pro*/
   .BarChart {
-    width: 310%;
+    width: 260%;
   }
 }
 
 
 @media screen and (max-width: 912px) {   /* surface pro 7*/
   .BarChart {
-    width: 250%;
+    width: 240%;
   }
 }
 @media screen and (max-width: 540px) {   /* surface duo*/
@@ -85,12 +85,12 @@ padding: 10px;
 }
 @media screen and (max-width: 820px) {   /* surface duo*/
   .BarChart {
-    width: 210%;
+    width: 180%;
   }
 }
 @media screen and (max-width: 600px) {   /* surface duo*/
   .BarChart {
-    width: 190%;
+    width: 180%;
   }
 }
 @media screen and (max-width: 500px) {   /* surface duo*/
