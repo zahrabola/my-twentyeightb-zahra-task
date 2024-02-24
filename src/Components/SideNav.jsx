@@ -48,11 +48,10 @@ const SideNav = () => {
           <MenuItem>Detailing targets</MenuItem>
         </Menu>
       </Sidebar>
-      <main style={{ padding: 10 }}>
+      <main style={{ padding: 10, marginLeft: 10,}}>
         <button className="sb-button" onClick={() => setToggled(!toggled)}>
           Sidebar
         </button>
-        <div>main content</div>
      <div className="row">
     <TopSection />
      </div>
