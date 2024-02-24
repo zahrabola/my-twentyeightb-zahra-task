@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Sidebar, Menu, MenuItem, menuClasses } from "react-pro-sidebar";
 import BottomSection from "../Sections/BottomSection";
+import TopSection from "../Sections/TopSection";
 
 const SideNav = () => {
   const [toggled, setToggled] = useState(false);
@@ -50,6 +51,7 @@ const SideNav = () => {
             Sidebar
           </button>
         <div>main content</div>
+        <TopSection />
         <BottomSection />
       </main>
     </div>
