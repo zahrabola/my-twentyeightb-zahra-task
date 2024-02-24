@@ -45,14 +45,10 @@ const SideNav = () => {
           <MenuItem>Detailing targets</MenuItem>
         </Menu>
       </Sidebar>
-      <main style={{ display: "flex", padding: 5 }}>
-        <div>
-          <button className="sb-button" onClick={() => setToggled(!toggled)}>
+      <main style={{ padding: 10 }}>
+      <button className="sb-button" onClick={() => setToggled(!toggled)}>
             Sidebar
           </button>
-        </div>
-      </main>
-      <main style={{ padding: 10 }}>
         <div>main content</div>
         <BottomSection />
       </main>

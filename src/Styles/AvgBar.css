@@ -9,16 +9,14 @@
   overflow: hidden;
   margin-bottom: 10px;
   margin-top: 10px;
-  width: 600%;
+  width: 1400px
 
 
 }
 
 .wrapperBar {
-  margin: 20px auto;
-  width: 100%;
-
-  padding-right: 20px;
+  margin: 30px auto;
+padding: 10px;
 }
 
 .BarData {
@@ -29,7 +27,7 @@
 
 .PercentText {
   color: #ffffff00;
-  font: 8px;
+  font: 6px;
   text-align: center;
   padding: 4px;
 
@@ -42,21 +40,86 @@
   cursor: pointer
 }
 
-@media all and (min-width: 1500px) {
-  .BarChart {
-    width: 600%;
- }
 
-}
-
+/*
 @media (max-width: 1024px) {
   .BarChart {
     width: 300%;
  }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .BarChart {
-    width: 120%
+    width: 210%;
+ }
+}
+
+@media all and (min-width: 360px) {
+  .BarChart {
+    width: 115%
   }
 }
+
+
+*/
+
+
+
+
+@media screen and (max-width: 1024px) {   /* ipad pro*/
+  .BarChart {
+    width: 310%;
+  }
+}
+
+
+@media screen and (max-width: 912px) {   /* surface pro 7*/
+  .BarChart {
+    width: 250%;
+  }
+}
+@media screen and (max-width: 540px) {   /* surface duo*/
+  .BarChart {
+    width: 200%;
+  }
+}
+@media screen and (max-width: 820px) {   /* surface duo*/
+  .BarChart {
+    width: 210%;
+  }
+}
+@media screen and (max-width: 600px) {   /* surface duo*/
+  .BarChart {
+    width: 190%;
+  }
+}
+@media screen and (max-width: 500px) {   /* surface duo*/
+  .BarChart {
+    width: 140%;
+  }
+}
+@media screen and (max-width: 300px) {   /* surface duo*/
+  .BarChart {
+    width: 100%;
+  }
+}
+/*
+
+
+@media screen and (max-width: 900px) {  /* ipad air
+  .BarChart {
+    width: 190%;
+  }
+}
+
+@media screen and (max-width: 400px) {   ipad air
+  .BarChart {
+    width: 125%;
+  }
+}
+
+
+
+
+
+*/

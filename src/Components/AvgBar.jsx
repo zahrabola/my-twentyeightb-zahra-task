@@ -3,7 +3,7 @@ import { dataBarAvg } from "../Data/DataPage";
 import "../Styles/AvgBar.css";
 const AvgBar = () => {
   return (
-    <div>
+    <div className="wrapper">
       <div className="wrapperBar">
         {/*Avg. all */}
         <h3 className="overview-h3">Avg. all</h3>

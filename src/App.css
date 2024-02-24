@@ -138,4 +138,40 @@ body {
    }
 }
 
+/* overview */
 
+.overview-p{
+    font-size: 36px;
+   line-height: 2.5rem;
+justify-content: space-between;
+}
+.overview-h3{
+    font-size: 36px;
+    font-weight: 600;
+}
+.overview-h1{
+    font-size: 56px;
+    padding-top: 10px;
+  margin-bottom: 20px;
+    font-weight: 600;
+ 
+}
+
+.btn{
+    cursor: pointer; 
+}
+@media all and (max-width: 1500px) {
+    .overview-p{
+        font-size: 16px;
+        line-height: 20px;
+   }
+   .overview-h3{
+    font-size: 20px;
+    line-height: 20px;
+   }
+   .overview-h1{
+    font-size: 30px;
+    line-height: 30px;
+   }
+
+}
