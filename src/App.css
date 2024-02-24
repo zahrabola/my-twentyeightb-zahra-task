@@ -31,45 +31,10 @@ body {
     padding-bottom: 40px;
 }
 
-.sidebar-wrapper{
-    height: ;
-}
 
 /* main*/
-.content {
-    margin-top: 40px;
-    padding: 0 15px;
-}
 
-.content-item {
-    display: inline-block;
-    background: grey;
-    margin: 10px;
-    height: 200px;
-    width: 200px;
-}
 
-@media all and (min-width: 1500px) {
-    .wrapper {
-        max-width: 1500px;
-    }
-
-    .content {
-        margin-left: 270px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .content {
-        margin-left: 270px;
-    }
-}
-
-@media (max-width: 500px) {
-    .content {
-        margin-left: 10px;
-    }
-}
 
 
 .wrapper {

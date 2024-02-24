@@ -10,7 +10,7 @@ const Overview = () => {
     const [randomIdx, setRandomIdx] = useState(getRandomIdx());
     return (
         <div>
-          <div className="wrapper ">
+          <div className=" ">
         <button className=" overview-h3 btn-overview" onClick={() => setRandomIdx(getRandomIdx())}>Next Call</button>
         <div class="row">
           <div class="col-2">

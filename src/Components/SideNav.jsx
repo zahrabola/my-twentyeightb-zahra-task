@@ -7,7 +7,9 @@ const SideNav = () => {
   const [toggled, setToggled] = useState(false);
 
   return (
-    <div className="sidebar-wrapper" style={{ display: "flex"  }}> {/*height: "100vh",*/}
+    <div className="sidebar-wrapper" style={{ display: "flex" }}>
+      {" "}
+      {/*height: "100vh",*/}
       <Sidebar
         breakPoint="sm"
         onBackdropClick={() => setToggled(false)}
@@ -47,12 +49,21 @@ const SideNav = () => {
         </Menu>
       </Sidebar>
       <main style={{ padding: 10 }}>
-      <button className="sb-button" onClick={() => setToggled(!toggled)}>
-            Sidebar
-          </button>
+        <button className="sb-button" onClick={() => setToggled(!toggled)}>
+          Sidebar
+        </button>
         <div>main content</div>
-        <TopSection />
-        <BottomSection />
+     <div className="row">
+    <TopSection />
+     </div>
+     <div className="row">
+    <BottomSection />
+      </div>
+     
+     
+    
+       
+      
       </main>
     </div>
   );
