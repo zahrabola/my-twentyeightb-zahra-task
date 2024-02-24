@@ -189,3 +189,120 @@ body {
     }
 
 }
+/* titles */
+.title-wrapper{
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+#diamond {
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom-color: #1a8ddd;
+    position: relative;
+    top: -20px;
+  }
+  #diamond:after {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #1a8ddd;
+  }
+  #diamond1 {
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom-color: #35ddb3;
+    position: relative;
+    top: -20px;
+  }
+  #diamond1:after {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #35ddb3;
+  }
+
+  #diamond2 {
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom-color: #dddc61;
+    position: relative;
+    top: -20px;
+  }
+  #diamond2:after {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #dddc61;
+  }
+  #diamond3 {
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom-color: #dd6844;
+    position: relative;
+    top: -20px;
+  }
+  #diamond3:after {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #dd6844;
+  }
+  #diamond4 {
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom-color: #8f71dd;
+    position: relative;
+    top: -20px;
+  }
+  #diamond4:after {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #8f71dd;
+  }
+  #diamond5 {
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom-color: #dddddd;
+    position: relative;
+    top: -20px;
+  }
+  #diamond5:after {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #dddddd;
+  }
