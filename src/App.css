@@ -20,7 +20,17 @@ body {
     color: #fff;
 
 }
-
+.sb-button{
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+}
+.sb-button:hover {
+    font-size: bold;
+    color: white;
+    background-color: #696868;
+    padding: 8px;
+}
 .metrics {
     padding-top: 20px;
     padding-bottom: 20px;

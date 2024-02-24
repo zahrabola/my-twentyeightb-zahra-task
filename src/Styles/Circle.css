@@ -34,7 +34,10 @@
     stroke: #dddddd;
     animation: donut2 3s;
 }
-
+.donut-segment-4{
+    stroke: #dddddd;
+    animation: donut2a 3s;
+}
 .segment-3 {
     fill: #dddddd;
 }
@@ -72,6 +75,16 @@
 
     100% {
         stroke-dasharray: 30, 70;
+    }
+}
+
+@keyframes donut2a {
+    0% {
+        stroke-dasharray: 0, 100;
+    }
+
+    100% {
+        stroke-dasharray: 40, 60;
     }
 }
 
