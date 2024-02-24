@@ -4,7 +4,7 @@ import "../Styles/AvgBar.css";
 
 const CautBar = () => {
   return (
-    <div>
+    <div className="">
       <div className="wrapperBar">
         <h3 className="overview-h3">Caution</h3>
         {/*caution */}
