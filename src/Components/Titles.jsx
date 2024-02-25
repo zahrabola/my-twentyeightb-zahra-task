@@ -1,36 +1,47 @@
-import React from 'react';
+import React from "react";
 
-const Titles = () => {
-    return (
-        <div className='title-wrapper'>
-           <div className='row'>
-            <div className='col-6'>
-                
-                <div id='diamond'></div>
-            </div>
-            <div className='col-6'>
-                
-                <div id='diamond1'></div>
-            </div>
-            <div className='col-6'>
-                
-                <div id='diamond2'></div>
-            </div>
-            <div className='col-6'>
-                
-                <div id='diamond3'></div>
-            </div>
-            <div className='col-6'>
-                 <div id='diamond4'></div>
-            </div>
-            <div className='col-6'>
-                
-                <div id='diamond5'></div>
-            </div>
-           
-           </div>
+const Titles = () => (
+  <div className="title-wrapper">
+    <div class="cards">
+      <div class="card">
+        <div className="title">
+          <div id="diamond"></div>
+          <h3 className="title-h3">Adherence</h3>
         </div>
-    );
-}
+      </div>
+      <div class="card">
+        <div className="title">
+          <div id="diamond1"></div>
+          <h3 className="title-h3 ">Combiniation Therapy</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div className="title ">
+          <div id="diamond2"></div>
+          <h3 className="title-h3">Doising</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div className="title">
+          <div id="diamond3"></div>
+          <h3 className=" title-h3">Guidelines</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div className="title">
+          <div id="diamond4"></div>
+          <h3 className="title-h3">Safety</h3>
+        </div>
+      </div>
+      <div class="card">
+        <div className="title ">
+          <div id="diamond5"></div>
+          <h3 className="title-h3">Others</h3>
+        </div>
+      </div>
+    </div>
+   
+  </div>
+);
 
 export default Titles;

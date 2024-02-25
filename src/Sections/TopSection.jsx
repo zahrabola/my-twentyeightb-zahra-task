@@ -1,6 +1,7 @@
 import React from "react";
 import Overview from "../Components/Overview";
 import Circle from "../Components/Circle";
+import Titles from "../Components/Titles"
 
 const TopSection = () => {
   return (
@@ -17,6 +18,9 @@ const TopSection = () => {
             <Circle />
           </div>
         </div>
+        <Titles />
+    
+      
    
       
   

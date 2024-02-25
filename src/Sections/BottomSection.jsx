@@ -3,12 +3,11 @@ import AvgBar from "../Components/AvgBar";
 import CautBar from "../Components/CautBar";
 import ComBar from "../Components/ComBar";
 import ConBar from "../Components/ConBar";
-import Titles from "../Components/Titles";
+
 
 const BottomSection = () => {
   return (
     <div>
-      <Titles />
       <AvgBar />
       <CautBar />
       <ComBar />
